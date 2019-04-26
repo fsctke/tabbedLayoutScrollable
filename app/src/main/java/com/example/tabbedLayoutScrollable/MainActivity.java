@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new oneFragment(), "item1");
         adapter.addFragment(new twoFragment(), "item2");
         adapter.addFragment(new threeFragment(), "item3");
+        adapter.addFragment(new fourFragment(), "item4");
+        adapter.addFragment(new fiveFragment(), "item5");
+        adapter.addFragment(new sixFragment(), "item6");
+        adapter.addFragment(new sevenFragment(), "item7");
+        adapter.addFragment(new eightFragment(), "item8");
+        adapter.addFragment(new nineFragment(), "item9");
+        adapter.addFragment(new tenFragment(), "item10");
         viewPager.setAdapter(adapter);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);

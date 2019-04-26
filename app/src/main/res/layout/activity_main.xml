@@ -26,9 +26,9 @@
         app:tabIndicatorFullWidth="true"
         app:tabIndicatorGravity="bottom"
         app:tabIndicatorHeight="7sp"
-        app:tabMode="fixed"
-        app:tabRippleColor="@color/design_default_color_primary_dark"
-        app:tabSelectedTextColor="@color/design_default_color_primary_dark"
+        app:tabMode="scrollable"
+        app:tabRippleColor="@android:color/holo_red_dark"
+        app:tabSelectedTextColor="@android:color/holo_green_dark"
         app:tabTextColor="@android:color/background_light">
 
         <android.support.design.widget.TabItem
